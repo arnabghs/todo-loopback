@@ -1,14 +1,19 @@
 {
   "ids": {
-    "Todo": 7
+    "Todo": 6,
+    "TodoList": 3
   },
   "models": {
     "Todo": {
-      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1,\"isComplete\":false}",
-      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2,\"isComplete\":false}",
-      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3,\"isComplete\":false}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4,\"isComplete\":false}",
-      "6": "{\"title\":\"go for walk\",\"desc\":\"walk at least 8000 steps\",\"isComplete\":true,\"id\":6}"
+      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"todoListId\":1,\"id\":1}",
+      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"todoListId\":1,\"id\":2}",
+      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"todoListId\":2,\"id\":3}",
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"todoListId\":1,\"id\":4}",
+      "5": "{\"title\":\"banana shake\",\"desc\":\"kevennter's milk\",\"isComplete\":false,\"todoListId\":2,\"id\":5}"
+    },
+    "TodoList": {
+      "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
+      "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}"
     }
   }
 }
